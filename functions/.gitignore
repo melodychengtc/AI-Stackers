@@ -15,3 +15,9 @@ functions/*.json
 node_modules/
 public/
 .firebase/
+
+# 🔓 EXPLICITLY TRACK Firebase config files
+!firebase.json
+!firestore.rules
+!firestore.indexes.json
+!.firebaserc
