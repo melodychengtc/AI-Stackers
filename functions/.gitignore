@@ -7,3 +7,4 @@ venv/
 
 .env
 functions/.env
+functions/*.json
