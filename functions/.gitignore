@@ -1,7 +1,9 @@
 # Python bytecode
 __pycache__/
+*.pyc
 
 # Python virtual environment
+.venv/
 venv/
 *.local
 
@@ -9,4 +11,7 @@ venv/
 functions/.env
 functions/*.json
 
-*.pyc
+# Node / Firebase / web stuff
+node_modules/
+public/
+.firebase/
